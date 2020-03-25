@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a12bce01-af98-4dc9-a25a-eee610faebe1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjectModel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/AddToCartButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/BrowserSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/Categories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/ChangeCurrency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/CheckoutResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/Computers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/GuestCheckout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/JewelleryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/LoadProp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/NewsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/ProductComparisionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/ProductDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/RegistrationResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/ShippingAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest1/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest1/TestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Browserdriver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Browserdriver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Browserdriver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/RegisteredUserShouldBeAbleToReferAFriendSuccessfully2020.03.25.13.36.03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/RegisteredUserShouldBeAbleToReferAFriendSuccessfully2020.03.25.13.58.51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/guestUserShouldBeAbleToCheckoutSuccessfully2020.03.25.13.47.54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/guestUserShouldBeAbleToCheckoutSuccessfully2020.03.25.14.00.12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/unregisteredUserShouldNotBeAbleToReferAFriend2020.03.25.13.37.24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/unregisteredUserShouldNotBeAbleToReferAFriend2020.03.25.13.48.28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/unregisteredUserShouldNotBeAbleToReferAFriend2020.03.25.14.01.15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/usershouldBeAbleToRegisterSuccessfully2020.03.25.07.46.17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/usershouldBeAbleToRegisterSuccessfully2020.03.25.13.38.14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/usershouldBeAbleToRegisterSuccessfully2020.03.25.13.49.34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/usershouldBeAbleToRegisterSuccessfully2020.03.25.14.02.22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/PageObjectModel-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/AddToCartButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/BasePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/BrowserSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/Categories.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/ChangeCurrency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/CheckoutResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/Computers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/GuestCheckout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/JewelleryPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/LoadProp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/NewsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/PaymentMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/ProductComparisionPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/ProductDetailsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/RegistrationPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/RegistrationResultPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/ShippingAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WebTest1/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-WebTest1.TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/Surefire test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Browserdriver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Browserdriver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Browserdriver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/RegisteredUserShouldBeAbleToReferAFriendSuccessfully2020.03.25.13.36.03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/RegisteredUserShouldBeAbleToReferAFriendSuccessfully2020.03.25.13.58.51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/guestUserShouldBeAbleToCheckoutSuccessfully2020.03.25.13.47.54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/guestUserShouldBeAbleToCheckoutSuccessfully2020.03.25.14.00.12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/unregisteredUserShouldNotBeAbleToReferAFriend2020.03.25.13.37.24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/unregisteredUserShouldNotBeAbleToReferAFriend2020.03.25.13.48.28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/unregisteredUserShouldNotBeAbleToReferAFriend2020.03.25.14.01.15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/usershouldBeAbleToRegisterSuccessfully2020.03.25.07.46.17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/usershouldBeAbleToRegisterSuccessfully2020.03.25.13.38.14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/usershouldBeAbleToRegisterSuccessfully2020.03.25.13.49.34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/usershouldBeAbleToRegisterSuccessfully2020.03.25.14.02.22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestData/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/WebTest1/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/WebTest1/TestSuite.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZU2HyYuussVCEdeOKBQLuzA11l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="C:/IdeaProjects-backup/NopcommercePageObject-master" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manis\IdeaProjects\PageObjectModel\src\test\resources\Browserdriver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestSuite">
+    <configuration name="TestSuite" type="TestNG" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox -DSauce=True" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.RegisteredUserShouldBeAbleToReferAFriendSuccessfully (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="RegisteredUserShouldBeAbleToReferAFriendSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.RegisteredUserShouldBeAbleToReferAFriendSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="RegisteredUserShouldBeAbleToReferAFriendSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.UserShouldBeAbleToSortProductHighToLowByPrice" type="TestNG" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="UserShouldBeAbleToSortProductHighToLowByPrice" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.guestUserShouldBeAbleToCheckoutSuccessfully (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="guestUserShouldBeAbleToCheckoutSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.guestUserShouldBeAbleToCheckoutSuccessfully" type="TestNG" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="guestUserShouldBeAbleToCheckoutSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.unregisteredUserShouldNotBeAbleToReferAFriend" type="TestNG" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="unregisteredUserShouldNotBeAbleToReferAFriend" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.userShouldBeAbleToAddNewCommentOnNopCommerceWeb" type="TestNG" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToAddNewCommentOnNopCommerceWeb" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.userShouldBeAbleToCompareToProductsSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToCompareToProductsSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.userShouldBeAbleToCompareToProductsSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToCompareToProductsSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.usershouldBeAbleToRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="usershouldBeAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.usershouldBeAbleToRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="usershouldBeAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=True" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.verifyAddToCartButtonIsPresentInProducts" type="TestNG" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuite" />
+      <option name="METHOD_NAME" value="verifyAddToCartButtonIsPresentInProducts" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -DSauce=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TestSuite.unregisteredUserShouldNotBeAbleToReferAFriend" />
+      <item itemvalue="TestNG.TestSuite.RegisteredUserShouldBeAbleToReferAFriendSuccessfully" />
+      <item itemvalue="TestNG.TestSuite.userShouldBeAbleToAddNewCommentOnNopCommerceWeb" />
+      <item itemvalue="TestNG.TestSuite.guestUserShouldBeAbleToCheckoutSuccessfully" />
+      <item itemvalue="TestNG.TestSuite.UserShouldBeAbleToSortProductHighToLowByPrice" />
+      <item itemvalue="TestNG.TestSuite.verifyAddToCartButtonIsPresentInProducts" />
+      <item itemvalue="TestNG.TestSuite" />
+      <item itemvalue="TestNG.TestSuite.usershouldBeAbleToRegisterSuccessfully" />
+      <item itemvalue="TestNG.TestSuite.userShouldBeAbleToCompareToProductsSuccessfully" />
+      <item itemvalue="TestNG.TestSuite.RegisteredUserShouldBeAbleToReferAFriendSuccessfully (1)" />
+      <item itemvalue="TestNG.TestSuite.guestUserShouldBeAbleToCheckoutSuccessfully (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestSuite.usershouldBeAbleToRegisterSuccessfully" />
+        <item itemvalue="TestNG.TestSuite.guestUserShouldBeAbleToCheckoutSuccessfully (1)" />
+        <item itemvalue="TestNG.TestSuite.userShouldBeAbleToCompareToProductsSuccessfully" />
+        <item itemvalue="TestNG.TestSuite.RegisteredUserShouldBeAbleToReferAFriendSuccessfully (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a12bce01-af98-4dc9-a25a-eee610faebe1" name="Default Changelist" comment="" />
+      <created>1584879267692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584879267692</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="88" key="#Auto_Import" timestamp="1584962864186">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="88" key="#Auto_Import/0.0.1600.860@0.0.1600.860" timestamp="1584962864186" />
+    <state x="505" y="61" key="#TestSuite.RegisteredUserShouldBeAbleToReferAFriendSuccessfully" timestamp="1584986865709">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="505" y="61" key="#TestSuite.RegisteredUserShouldBeAbleToReferAFriendSuccessfully/0.0.1600.860@0.0.1600.860" timestamp="1584986865709" />
+    <state x="509" y="61" key="#TestSuite.UserShouldBeAbleToSortProductHighToLowByPrice" timestamp="1585045033320">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="509" y="61" key="#TestSuite.UserShouldBeAbleToSortProductHighToLowByPrice/0.0.1600.860@0.0.1600.860" timestamp="1585045033320" />
+    <state x="509" y="61" key="#TestSuite.guestUserShouldBeAbleToCheckoutSuccessfully" timestamp="1585042117737">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="509" y="61" key="#TestSuite.guestUserShouldBeAbleToCheckoutSuccessfully/0.0.1600.860@0.0.1600.860" timestamp="1585042117737" />
+    <state x="509" y="61" key="#TestSuite.unregisteredUserShouldNotBeAbleToReferAFriend" timestamp="1584985784908">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="509" y="61" key="#TestSuite.unregisteredUserShouldNotBeAbleToReferAFriend/0.0.1600.860@0.0.1600.860" timestamp="1584985784908" />
+    <state x="488" y="61" key="#TestSuite.userShouldBeAbleToAddNewCommentOnNopCommerceWeb" timestamp="1584989284432">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="488" y="61" key="#TestSuite.userShouldBeAbleToAddNewCommentOnNopCommerceWeb/0.0.1600.860@0.0.1600.860" timestamp="1584989284432" />
+    <state x="504" y="61" key="#TestSuite.userShouldBeAbleToCompareToProductsSuccessfully_(1)" timestamp="1585143263421">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="504" y="61" key="#TestSuite.userShouldBeAbleToCompareToProductsSuccessfully_(1)/0.0.1600.860@0.0.1600.860" timestamp="1585143263421" />
+    <state x="509" y="61" key="#TestSuite.userShouldBeAbleToVerifyCurrencyChange" timestamp="1584987863511">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="509" y="61" key="#TestSuite.userShouldBeAbleToVerifyCurrencyChange/0.0.1600.860@0.0.1600.860" timestamp="1584987863511" />
+    <state x="509" y="61" key="#TestSuite.userShouldBeAbleToVerifyCurrencyChange_(1)" timestamp="1585142932413">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="509" y="61" key="#TestSuite.userShouldBeAbleToVerifyCurrencyChange_(1)/0.0.1600.860@0.0.1600.860" timestamp="1585142932413" />
+    <state x="509" y="61" key="#TestSuite.usershouldBeAbleToRegisterSuccessfully_(1)" timestamp="1585143196917">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="509" y="61" key="#TestSuite.usershouldBeAbleToRegisterSuccessfully_(1)/0.0.1600.860@0.0.1600.860" timestamp="1585143196917" />
+    <state x="509" y="61" key="#TestSuite.verifyAddToCartButtonIsPresentInProducts" timestamp="1585045358677">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="509" y="61" key="#TestSuite.verifyAddToCartButtonIsPresentInProducts/0.0.1600.860@0.0.1600.860" timestamp="1585045358677" />
+    <state x="509" y="77" key="#TestSuite_(1)" timestamp="1585144007992">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="509" y="77" key="#TestSuite_(1)/0.0.1600.860@0.0.1600.860" timestamp="1585144007992" />
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585143879626">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1585143879626" />
+    <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585145546449">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1585145546449" />
+    <state x="539" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584879835598">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="539" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1584879835598" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1584988647688">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1584988647688" />
+    <state x="657" y="323" key="Github.ShareDialog" timestamp="1585154109063">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="657" y="323" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1585154109063" />
+    <state x="489" y="135" key="Github.UntrackedFilesDialog" timestamp="1585154151296">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="489" y="135" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1585154151296" />
+    <state width="1557" height="292" key="GridCell.Tab.0.bottom" timestamp="1585155283715">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="292" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585155283715" />
+    <state width="1557" height="292" key="GridCell.Tab.0.center" timestamp="1585155283714">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="292" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585155283714" />
+    <state width="1557" height="292" key="GridCell.Tab.0.left" timestamp="1585155283714">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="292" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585155283714" />
+    <state width="1557" height="292" key="GridCell.Tab.0.right" timestamp="1585155283715">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="292" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585155283715" />
+    <state x="330" y="85" key="Maven.ArtifactSearchDialog" timestamp="1584960489424">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="330" y="85" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1584960489424" />
+    <state x="301" y="72" key="SettingsEditor" timestamp="1584880316481">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1584880316481" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1585156777912">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585156777912" />
+    <state x="182" y="125" key="new project wizard" timestamp="1585061920129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="125" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1585061920129" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1584880940065">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1584880940065" />
+  </component>
+</project>

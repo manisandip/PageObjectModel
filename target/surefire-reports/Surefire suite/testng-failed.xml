@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="WebTest1.TestSuite">
+        <methods>
+          <include name="unregisteredUserShouldNotBeAbleToReferAFriend"/>
+          <include name="OpenBrowser"/>
+          <include name="userShouldBeAbleToVerifyCurrencyChange"/>
+          <include name="usershouldBeAbleToRegisterSuccessfully"/>
+          <include name="verifyAddToCartButtonIsPresentInProducts"/>
+          <include name="userShouldBeAbleToCompareToProductsSuccessfully"/>
+          <include name="CloseBrowser"/>
+          <include name="userShouldBeAbleToAddNewCommentOnNopCommerceWeb"/>
+        </methods>
+      </class> <!-- WebTest1.TestSuite -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
